@@ -1,0 +1,36 @@
+{
+  "name": "Dicionário de divisão silábica",
+  "title": "Dicionário de divisão silábica",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "resources": [
+    {
+      "name": "divisaosilabica",
+      "path": "data\\divisaosilabica.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 91380,
+      "schema": {
+        "fields": [
+          {
+            "name": "palavra",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "tipo",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "divisao_silabica",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "description": "Divisão Silábica"
+}
